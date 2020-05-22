@@ -26,7 +26,7 @@
 ### Validation test
 1. Create a tomcat docker container by pulling a docker image from the public docker registry
    ```sh
-   docker run -d --name test-tomcat-server -p 8090:8080 tomcat:latest
+   docker run -d --name tomcat -p 8090:8080 tomcat:9.0.29-jdk8-openjdk
    ```
 
 ## Docker Installation on CentOS server
